@@ -23,7 +23,7 @@ struct mybuffer *get_buffer(int fd){
     return &mybuffer_arr[fd];
 }
 
-/* This function takesa file descriptor as input and allocates
+/* This function takes file descriptor as input and allocates
    memory in the heap for the associtated file. The buffer 
    which keeps track of the information for the file is created 
    and added to the Array of buffers  */
